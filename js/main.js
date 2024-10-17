@@ -19,7 +19,7 @@ message.innerHTML='<p class="text-center text-danger">All Inputs Are required</p
             password: signUpPassword.value
         }
         users.push(obj)
-        location.href='../../signin/index.html'
+        location.href='../signin/index.html'
         localStorage.setItem('locusers',JSON.stringify(users))
     }
 }
